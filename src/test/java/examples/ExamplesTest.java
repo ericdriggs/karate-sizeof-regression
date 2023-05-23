@@ -7,7 +7,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-
 class ExamplesTest {
 
     @Test
@@ -17,6 +16,5 @@ class ExamplesTest {
                 .parallel(5);
         assertEquals(0, results.getFailCount(), results.getErrorMessages());
     }
-
 
 }
